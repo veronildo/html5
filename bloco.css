@@ -1,0 +1,37 @@
+*{
+	margin:0;
+	padding:0; /* limpando estilos de margem e espaçamento */
+}
+
+header{
+	height: 100px;
+	background-color: #0c3;
+	width: 100%; /* destinguindo o tamanho do bloco */
+}
+
+nav{
+	height: 400px;
+	background-color: #33f;
+	width: 20%; /* destinguindo o tamanho do bloco */
+	float: left; /* flutuando o bloco para o encaixe */
+}
+
+article{
+	height: 400px;
+	background-color: #f33;
+	width: 60%; /* destinguindo o tamanho do bloco */
+	float: left; /* flutuando o bloco para o encaixe */
+}
+aside{
+	height: 400px;
+	background-color: #639;
+	width: 20%; /* destinguindo o tamanho do bloco */
+	float: right; /* flutuando o bloco para o encaixe */
+}
+
+footer{
+	height: 200px;
+	background-color: #c3c;
+	width: 100%; /* destinguindo o tamanho do bloco */
+	clear: both; /* apagando a flutuação  */
+}
