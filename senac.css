@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	margin:0 auto;
+}
+
+header#principal{
+	width: 1170px;
+	height: 250px;
+	background-color: #f5f5f5;
+}
+
+header section#topo{
+	width: 1170px;
+	height: 30px;
+	background-color: #004b97;
+}
+
+header section#menu{
+	width: 1170px;
+	height: 30px;
+	background-color: #002753;
+}
+section#todo{
+	width: 1170px;
+	height: 120px;
+	background-color: #187E8A;
+}
+aside#logo{
+	width: 236px;
+	background: #999;
+	height: 120px;
+	float: left;
+}
+aside#cursos{
+	width: 746px;
+	background-color: #888;
+	height: 120px;
+	float:right;
+}
