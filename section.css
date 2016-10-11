@@ -46,8 +46,6 @@ nav ul li a {
 	font-weight: bold; /* negrito */
 }
 
-nav ul li a:hover { /* passar o mouse em cima do li a */
-	color:#2688F6;
 }
 
 nav ul li a.selecionado{
@@ -119,4 +117,13 @@ aside section h1{
 	margin-bottom: 15px;
 	font-size: 16px;
 }
-
+aside ul li a{
+	text-decoration: none; /* retirar sublinhado dos links */
+	color: #F04D4D
+}
+ aside ul li{
+ 	list-style-type: none;
+ }
+ aside ul li a:hover{
+ 	text-decoration: underline; /*sublinhado quando passa o mouse*/
+ }
