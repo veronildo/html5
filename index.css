@@ -1,0 +1,40 @@
+body{
+	margin:0 auto; /* centralizar toda a pagina */
+	width: 940px;
+	font-size: 13px;
+	font-family: verdana;
+	background-color: #75ABF4
+}
+
+h1{
+	text-align: center;/* alinar o texto de cabeçalho no centro */
+}
+
+header nav{
+	display: block;
+}
+
+nav ul{ /* ul são as listas */
+	list-style-type: none;
+}
+
+nav ul li a{
+	display: block;
+	height: 30px; /* altura */
+	text-decoration: none; /* retirar sublinhado dos links */
+	/*list-style-type: none;*/
+	line-height: 30px; /* altura da linha */
+	height: 30px; /* altura */
+	float:left; /* flutuar a esquerda */
+	font-size: 14px;
+	text-align: center; /* alinhamento do texto */
+	padding: 0 30px; /* espaçamento dos link menus */
+	font-weight: bold; /* negrito no texto*/
+	color: #FFFFFF; /* cor de fonte de texto */
+	border-radius: 10px 10px 0 0; /* arrendondamento das bordas do texto */ /* topo esquerda, top direita, baixo esquerda, baixo direita*/
+		
+}
+.cordosmenus{
+	background-color: #F10F0F; 
+	margin-left: 10px; /* margin esquerda, vai ficar um espaço entr os dois menus assim não juntando a cor*
+}

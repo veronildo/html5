@@ -2,11 +2,25 @@
 	margin:0;
 	padding:0;
 }
+
+body {
+ background-image: url(Riven.jpg) no-repeat center center fixed;
+ background-size: cover;
+ /*background-repeat: no-repeat;
+ background-position: center center;*/
+ background-attachment: scroll;
+ 
+}
+html {
+ height: 110%;
+}
+
 body{
 	margin:0 auto;
 	width: 940px;
 	font-size: 13px;
 	font-family: verdana;
+	
 }
 header, nav{
 	display: block;
@@ -58,4 +72,7 @@ nav ul li a.selecionado{
 
 .dsataque{
 
+}body.imagem{
+	background-attachment: scroll;
+	background-repeat: no-repeat;
 }

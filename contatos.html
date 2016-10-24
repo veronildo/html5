@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Contatos</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+</head>
+<body>
+	<form class="form-horizontal">
+<fieldset>
+
+<!-- Form Name -->
+<legend>Contatos</legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Nome">Nome</label>  
+  <div class="col-md-4">
+  <input id="Nome" name="Nome" type="text" placeholder="Digite seu nome completo" class="form-control input-md">
+  <span class="help-block">sem abreviações</span>  
+  </div>
+</div>
+
+<!-- Text input email-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="email">Email</label>  
+  <div class="col-md-4">
+  <input id="email" name="email" type="" placeholder="Email" class="form-control input-md">
+  <span class="help-block">digite um e-mail válido</span>  
+  </div>
+</div>
+
+<!-- Text input idade-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="idade">Idade</label>  
+  <div class="col-md-4">
+  <input id="idade" name="idade" type="number" placeholder="Idade" class="form-control input-md" required="" maxlength="3">
+  <span class="help-block">digite somente números</span>  
+  </div>
+</div>
+
+<!-- Text input celular-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="celular">WhatsApp</label>  
+  <div class="col-md-4">
+  <input id="celular" name="celular" type="text" placeholder="(99)99999-9999" class="form-control input-md" maxlength="14">
+  <span class="help-block">Informe seu Celular/WhasApp</span>  
+  </div>
+</div>
+
+<!-- Multiple Radios -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="sexo">sexo</label>
+  <div class="col-md-4">
+  <div class="radio">
+    <label for="sexo-0">
+      <input type="radio" name="sexo" id="sexo-0" value="M" checked="checked">
+      Masculino
+    </label>
+	</div>
+  <div class="radio">
+    <label for="sexo-1">
+      <input type="radio" name="sexo" id="sexo-1" value="F">
+      Femino
+    </label>
+	</div>
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="uf">Estado</label>
+  <div class="col-md-4">
+    <select id="uf" name="uf" class="form-control">
+      <option value="AC">-Selecione-</option>
+      <option value="SP">Acre</option>
+      <option value="TO">São Paulo</option>
+      <option value="">Tocantins</option>
+    </select>
+  </div>
+</div>
+
+<!-- Select Multiple -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="mensagem">Mensagem</label>
+  <div class="col-md-4">
+    <select id="mensagem" name="mensagem" class="form-control" multiple="multiple">
+      <option value="">Descrição</option>
+    </select>
+  </div>
+</div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="enviar"></label>
+  <div class="col-md-4">
+    <button id="enviar" name="enviar" class="btn btn-primary">Enviar</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+
+</body>
+</html>

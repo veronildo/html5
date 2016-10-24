@@ -35,3 +35,10 @@ footer{
 	width: 100%; /* destinguindo o tamanho do bloco */
 	clear: both; /* apagando a flutuação  */
 }
+ .cor{
+	background-color: #F3E6E6
+
+ }
+ nav a{
+ 	font-size: 30px;
+ }
